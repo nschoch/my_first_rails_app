@@ -3,7 +3,6 @@ class CarsController < ApplicationController
 
   # GET /cars
   # GET /cars.json
-  # test change
   def index
     @cars = Car.all
   end
